@@ -2,7 +2,12 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-      extend: {},
+      extend: {
+        rotate: {
+          '120': '120deg',
+          '160': '160deg',
+        }
+      },
     },
     plugins: [],
   }
